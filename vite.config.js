@@ -8,12 +8,5 @@ export default defineConfig({
     open: true,
     host: true
   },
-  build: {
-    rollupOptions: {
-      input: {
-        main: '/src/main.jsx'
-      }
-    }
-  },
   base: '/portfolio-React/',
 })

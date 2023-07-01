@@ -1,8 +1,8 @@
 import React from 'react'
-import fitnessapp from '/images/projectsImages/fitnessApp.png'
-import socialnetwork from '/images/projectsImages/socialNetwork.png'
-import todolist from '/images/projectsImages/academloshop.webp'
-import relvise from '/images/projectsImages/relvise.png'
+import fitnessapp from '/public/images/projectsImages/fitnessApp.png'
+import socialnetwork from '/public/images/projectsImages/socialNetwork.png'
+import todolist from '/public/images/projectsImages/fitnessApp.png'
+import relvise from '/public/images/projectsImages/relvise.png'
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'

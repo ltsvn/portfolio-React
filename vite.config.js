@@ -7,5 +7,13 @@ export default defineConfig({
   server: {
     open: true,
     host: true
-  }
+  },
+  build: {
+    rollupOptions: {
+      external: [
+        '/images/projectsImages/academloshop.webp'
+      ]
+    }
+  },
+  base:'/portfolio-React/'
 })

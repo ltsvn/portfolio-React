@@ -15,5 +15,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/your-repo-name/',
+  base: '/portfolio-React/',
 })

@@ -7,5 +7,13 @@ export default defineConfig({
   server: {
     open: true,
     host: true
-  }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: '/src/main.jsx'
+      }
+    }
+  },
+  base: '/your-repo-name/',
 })

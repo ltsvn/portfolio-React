@@ -10,9 +10,9 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: [
-        '/images/projectsImages/academloshop.webp'
-      ]
+      input: {
+        main: '/src/main.jsx'
+      }
     }
   },
   base:'/portfolio-React/'

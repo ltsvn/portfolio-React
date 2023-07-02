@@ -8,5 +8,5 @@ export default defineConfig({
     open: true,
     host: true
   },
-  base: '/portfolio-React',
+  base: '/portfolio-React/',
 })

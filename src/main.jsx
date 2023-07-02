@@ -9,8 +9,8 @@ import GeneralFooter from "./components/GeneralFooter.jsx";
 import AboutPage from "./components/pages/AboutPage.jsx";
 
 const router = createBrowserRouter([
-    {path: "/portfolio-React", element: <HomePage/>},
-    {path: "/portfolio-React/about-me", element: <AboutPage/>}
+    {path: "/", element: <HomePage/>},
+    {path: "/about-me", element: <AboutPage/>}
 
 ], {basename: '/portfolio-React'})
 

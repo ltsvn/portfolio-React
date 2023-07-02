@@ -4,8 +4,8 @@ import ukr from '/public/icons/icons8-country-67.png'
 
 const AboutSectionAbout = () => {
     return (
-        <section name="About" className="relative w-full min-h-screen">
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center min-h-full px-4 py-8 md:py-16 lg:py-0 lg:flex-row lg:gap-8 mt-40">
+        <section name="About" className="relative w-full md:min-h-screen xl:mt-28 lg:mt-28">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center min-h-full px-4 py-8 md:py-16 lg:py-0 lg:flex-row lg:gap-8 ">
                 <div className="flex mt-8 md:mt-0">
                     <img
                         src={aboutME}
@@ -16,7 +16,7 @@ const AboutSectionAbout = () => {
                 </div>
 
                 <div className="flex flex-col justify-center items-center mt-8 md:mt-0">
-                    <h1 className="text-3xl md:text-5xl font-bold text-white mb-2 md:mb-4">Who I am?</h1>
+                    <h1 className="text-3xl md:text-5xl font-bold text-white mb-2 md:mb-4 md:mt-10">Who I am?</h1>
 
                     <div className="flex items-center bg-primary-color/20 rounded-md py-2 px-4 mb-4">
                         <img className="h-6 w-auto mr-2" src={ukr} alt="country" />

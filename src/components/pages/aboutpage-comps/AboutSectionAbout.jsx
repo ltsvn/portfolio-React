@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutME from '/public/images/me.jpeg'
+import ukr from '/public/icons/icons8-country-67.png'
 
 const AboutSectionAbout = () => {
     return (
@@ -18,7 +19,7 @@ const AboutSectionAbout = () => {
                     <h1 className="text-3xl md:text-5xl font-bold text-white mb-2 md:mb-4">Who I am?</h1>
 
                     <div className="flex items-center bg-primary-color/20 rounded-md py-2 px-4 mb-4">
-                        <img className="h-6 w-auto mr-2" src="/icons/icons8-country-67.png" alt="country" />
+                        <img className="h-6 w-auto mr-2" src={ukr} alt="country" />
                         <h2 className="text-base md:text-2xl md:py-1 font-semibold text-white">Ukrainian - 21 years old</h2>
                     </div>
 

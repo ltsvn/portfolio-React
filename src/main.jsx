@@ -7,10 +7,14 @@ import ParticlesBackground from "./components/ParticlesBackground.jsx";
 import SocialLinks from "./components/SocialLinks.jsx";
 import GeneralFooter from "./components/GeneralFooter.jsx";
 import AboutPage from "./components/pages/AboutPage.jsx";
+import AllProjectsPage from "./components/pages/AllProjectsPage.jsx";
+import AllTechsPage from "./components/pages/AllTechsPage.jsx";
 
 const router = createBrowserRouter([
     {path: "/", element: <HomePage/>},
-    {path: "/about-me", element: <AboutPage/>}
+    {path: "/about-me", element: <AboutPage/>},
+    {path: "/projects", element: <AllProjectsPage/>},
+    {path: "/technologies", element: <AllTechsPage/>}
 
 ], {basename: '/portfolio-React'})
 

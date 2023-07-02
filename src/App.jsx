@@ -13,7 +13,9 @@ function App() {
     <>
       <ParticlesBackground />
       <SocialLinks />
-      
+
+        <HomePage />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         

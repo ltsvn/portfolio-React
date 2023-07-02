@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com/in/diegotellezc/',
+            href: 'https://www.linkedin.com/in/anastasiia-lutsiv/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30} />
                 </>
             ),
-            href: 'https://github.com/diegotellezc'
+            href: 'https://github.com/ltsvn'
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: 'mailto:diegotellezdev@gmail.com'
+            href: 'mailto:nastaluciv@gmail.com'
         },
         {
             id: 4,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/FrontendDeveloper-DiegoTellez.pdf',
+            href: '/Anastasiia_Lutsiv_CV.pdf',
             style: 'rounded-br-md',
             download: true
         }

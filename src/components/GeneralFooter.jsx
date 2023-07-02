@@ -19,7 +19,7 @@ const GeneralFooter = () => {
             </div>
 
             <p className='md:order-2'>• Copyright ©2023 | All rights reserved • </p>
-            <p>@anastasiia_lutsiv</p>
+            <p>Design by @diegotellez</p>
         </footer>
     )
 }

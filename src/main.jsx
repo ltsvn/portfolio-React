@@ -19,13 +19,6 @@ const router = createBrowserRouter([
 ], {basename: '/portfolio-React'})
 
 
-//
-// <Route path="/about-me" element={<AboutPage/>}/>
-//
-// <Route path="/projects" element={<AllProjectsPage/>}/>
-//
-// <Route path="/technologies" element={<AllTechsPage/>}/>
-
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
 

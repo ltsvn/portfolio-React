@@ -5,17 +5,9 @@ function App() {
 
   return (
     <>
-
-
-
       <Routes>
-
-
       </Routes>
-
       <GeneralFooter />
-        
-      
     </>
   )
 }

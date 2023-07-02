@@ -10,8 +10,8 @@ const Contact = () => {
 
         const formData = new FormData(event.target);
 
-        axios.post('https://getform.io/f/feff19e5-27a9-4f74-be5d-9699c4b245ed', formData)
-            .then(response => {
+        axios.post("https://getform.io/f/b061dce7-1b58-4f65-8925-1ac64a28d70f", formData)
+            .then(() => {
                 Swal.fire({
                     icon: 'success',
                     iconColor: '#0DFC4B',
@@ -27,6 +27,19 @@ const Contact = () => {
             })
             .catch(error => {
             console.log(error);
+                Swal.fire({
+                    icon: 'error',
+                    iconColor: '#FF0000',
+                    title: 'Oops... Something went wrong.',
+                    text: 'Please try again later.',
+                    showConfirmButton: true,
+                    background: '#191a19',
+                    color: '#fff',
+                    confirmButtonColor: '#FF0000',
+                    backdrop: `
+            rgba(54, 55, 54,0.4)
+          `,
+                });
             });
         
         event.target.reset();

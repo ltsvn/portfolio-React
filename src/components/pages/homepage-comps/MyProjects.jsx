@@ -1,7 +1,7 @@
 import React from 'react'
 import fitnessapp from '/public/images/projectsImages/fitnessApp.png'
 import socialnetwork from '/public/images/projectsImages/socialNetwork.png'
-import todolist from '/public/images/projectsImages/fitnessApp.png'
+import todolist from '/public/images/projectsImages/Screenshot 2023-07-02 at 23.23.24.png'
 import relvise from '/public/images/projectsImages/relvise.png'
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom'
@@ -14,25 +14,29 @@ const MyProjects = () => {
             id: 1,
             src: fitnessapp,
             demo: 'https://ltsvn.github.io/myFitnessApp/',
-            code: 'https://github.com/ltsvn/myFitnessApp'
+            code: 'https://github.com/ltsvn/myFitnessApp',
+            status: 'Finished'
         },
         {
             id: 2,
             src: socialnetwork,
             demo: '',
-            code: 'https://github.com/ltsvn/React_Social_Network'
+            code: 'https://github.com/ltsvn/React_Social_Network',
+            status: 'In progress'
         },
         {
             id: 3,
             src: relvise,
             demo: 'https://ltsvn.github.io/RELVISE/',
-            code: 'https://github.com/ltsvn/RELVISE'
+            code: 'https://github.com/ltsvn/RELVISE',
+            status: 'Finished'
         },
         {
             id: 4,
             src: todolist,
-            demo: 'https://academlostoregen24.netlify.app/',
-            code: 'https://github.com/ltsvn/ToDoList'
+            demo: '',
+            code: 'https://github.com/ltsvn/ToDoList',
+            status: 'In progress'
         },
         // {
         //     id: 5,
@@ -73,13 +77,14 @@ const MyProjects = () => {
 
                 <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 mb-6'>
                     {
-                        projects.map(({ id, src, demo, code }) => (
+                        projects.map(({ id, src, demo, code, status }) => (
                                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto'>
                                     <img src={src} alt="project card" className='rounded-md duration-200 hover:scale-105' />
                                     <div className='flex items-center justify-center'>
                                         <button onClick={() => handleClickDemo(demo)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Demo</button>
                                         <button onClick={() => handleClickCode(code)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Code</button>
                                     </div>
+                                    <p className={status !== 'Finished' ? 'text-green-500' : 'text-red-500'} style={{ margin: '10px' }}>{status}</p>
                                 </div>
                         ))
                     }

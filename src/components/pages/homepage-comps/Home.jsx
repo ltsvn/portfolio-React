@@ -14,7 +14,7 @@ const Home = () => {
             
             <h1 className='text-4xl md:text-6xl font-bold text-white mb-2 mt-3 md:mt-0 md:mb-4'>Anastasiia Lutsiv</h1>
             <h2 className='rounded-md bg-primary-color/20 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white'>Front-end Developer</h2>
-            <p className='text-gray-300 py-4 max-x-md text-justify'>Determined and productive developer with a passion for creative solutions. Knowledgeable in user interface, testing, and debugging processes. Сompetent in JavaScript, React, Redux. Looking for a junior position at a great company to be a hard- working asset to any team, to learn, grow, and develop longterm.</p>
+            <p className='text-gray-300 py-4 max-x-md text-justify'>Determined and productive developer with a passion for creative solutions. Knowledgeable in user interface, testing, and debugging processes. Сompetent in JavaScript, React, Redux. Looking for a trainee position at a great company to be a hard- working asset to any team, to learn, grow, and develop longterm.</p>
 
             <div className='hidden desktop:flex'>
               <Link to='About' smooth duration={500} className='group text-black font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0'>

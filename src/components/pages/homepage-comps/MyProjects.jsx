@@ -12,6 +12,7 @@ const MyProjects = () => {
     const projects = [
         {
             id: 1,
+            name: 'Fitness App',
             src: fitnessapp,
             demo: 'https://ltsvn.github.io/myFitnessApp/',
             code: 'https://github.com/ltsvn/myFitnessApp',
@@ -19,6 +20,7 @@ const MyProjects = () => {
         },
         {
             id: 2,
+            name: 'Social Network',
             src: socialnetwork,
             demo: '',
             code: 'https://github.com/ltsvn/React_Social_Network',
@@ -26,6 +28,7 @@ const MyProjects = () => {
         },
         {
             id: 3,
+            name: 'Relvise',
             src: relvise,
             demo: 'https://ltsvn.github.io/RELVISE/',
             code: 'https://github.com/ltsvn/RELVISE',
@@ -33,6 +36,7 @@ const MyProjects = () => {
         },
         {
             id: 4,
+            name: 'ToDo List',
             src: todolist,
             demo: '',
             code: 'https://github.com/ltsvn/ToDoList',
@@ -77,12 +81,13 @@ const MyProjects = () => {
 
                 <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 mb-6'>
                     {
-                        projects.map(({ id, src, demo, code, status }) => (
-                                <div key={id} className='shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto'>
-                                    <img src={src} alt="project card" className='rounded-md duration-200 hover:scale-105' />
+                        projects.map(({ id,name, src, demo, code, status }) => (
+                                <div key={id} className='shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto hover:transform hover:scale-110 transition duration-300'>
+                                    <div className='text-center m-5 '>{name}</div>
+                                    <img src={src} alt="project card" className='rounded-md duration-200 ' />
                                     <div className='flex items-center justify-center'>
-                                        <button onClick={() => handleClickDemo(demo)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Demo</button>
-                                        <button onClick={() => handleClickCode(code)} className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125'>Code</button>
+                                        <button onClick={() => handleClickDemo(demo)} className='w-1/2 px-6 py-2 m-4 '>Demo</button>
+                                        <button onClick={() => handleClickCode(code)} className='w-1/2 px-6 py-2 m-4 '>Code</button>
                                     </div>
                                     <p className={status !== 'Finished' ? 'text-green-500' : 'text-red-500'} style={{ margin: '10px' }}>{status}</p>
                                 </div>

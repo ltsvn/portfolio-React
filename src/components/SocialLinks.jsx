@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {FaFileDownload, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -38,7 +38,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                Resume <BsFillPersonLinesFill size={30} />
+                Resume <FaFileDownload size={30} />
                 </>
             ),
             href: '/Anastasiia_Lutsiv_CV.pdf',

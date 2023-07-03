@@ -22,7 +22,7 @@ const MyProjects = () => {
             id: 2,
             name: 'Social Network',
             src: socialnetwork,
-            demo: '',
+            demo: 'https://ltsvn.github.io/React_Social_Network/',
             code: 'https://github.com/ltsvn/React_Social_Network',
             status: 'In progress'
         },
@@ -38,7 +38,7 @@ const MyProjects = () => {
             id: 4,
             name: 'ToDo List',
             src: todolist,
-            demo: '',
+            demo: 'https://ltsvn.github.io/ToDoList/',
             code: 'https://github.com/ltsvn/ToDoList',
             status: 'In progress'
         },
@@ -89,7 +89,7 @@ const MyProjects = () => {
                                         <button onClick={() => handleClickDemo(demo)} className='w-1/2 px-6 py-2 m-4 '>Demo</button>
                                         <button onClick={() => handleClickCode(code)} className='w-1/2 px-6 py-2 m-4 '>Code</button>
                                     </div>
-                                    <p className={status !== 'Finished' ? 'text-green-500' : 'text-red-500'} style={{ margin: '10px' }}>{status}</p>
+                                    <p className={status === 'Finished' ? 'text-green-500' : 'text-red-500'} style={{ margin: '10px' }}>{status}</p>
                                 </div>
                         ))
                     }

@@ -1,7 +1,7 @@
 import React from "react";
 import {FaFileDownload, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import cv from '/public/Anastasiia_Lutsiv_CV.pdf';
 
 const MobileSocialLinks = () => {
 

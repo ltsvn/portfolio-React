@@ -41,7 +41,7 @@ const MobileSocialLinks = () => {
                     <FaFileDownload size={20} /> Resume
                 </>
             ),
-            href: '/Anastasiia_Lutsiv_CV.pdf',
+            href: 'Anastasiia_Lutsiv_CV.pdf',
             style: 'rounded-br-md',
             download: true
         }

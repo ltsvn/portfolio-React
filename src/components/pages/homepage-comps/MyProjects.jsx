@@ -1,6 +1,6 @@
 import React from 'react'
 import fitnessapp from '/public/images/projectsImages/fitnessApp.png'
-import socialnetwork from '/public/images/projectsImages/socialNetwork.png'
+import socialnetwork from '/public/images/projectsImages/SocialNetwork.png'
 import todolist from '/public/images/projectsImages/Screenshot 2023-07-02 at 23.23.24.png'
 import relvise from '/public/images/projectsImages/relvise.png'
 import { Link as ScrollLink } from 'react-scroll';
@@ -41,20 +41,7 @@ const MyProjects = () => {
             demo: 'https://ltsvn.github.io/ToDoList/',
             code: 'https://github.com/ltsvn/ToDoList',
             status: 'In progress'
-        },
-        // {
-        //     id: 5,
-        //     src: weatherapp,
-        //     demo: 'https://weatherappbydt.netlify.app/',
-        //     code: 'https://github.com/diegotellezc/weather-app'
-        // },
-        // {
-        //
-        //     id: 6,
-        //     src: rickandmorty,
-        //     demo: 'https://rickandmorty-bydt.netlify.app/',
-        //     code: 'https://github.com/diegotellezc/RickAndMortyApp'
-        // }
+        }
     ]
 
     const handleClickDemo = (demoUrl) => {

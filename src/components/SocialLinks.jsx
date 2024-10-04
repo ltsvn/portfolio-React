@@ -1,7 +1,7 @@
 import React from "react";
 import {FaFileDownload, FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import cv from '/public/Anastasiia_Lutsiv_CV.pdf'
+import cv from '/public/cv_Anastasiia Lutsiv.pdf'
 
 const SocialLinks = () => {
 
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <FaFileDownload size={30} />
                 </>
             ),
-            href: 'Anastasiia_Lutsiv_CV.pdf',
+            href: 'cv_Anastasiia Lutsiv.pdf',
             style: 'rounded-br-md',
             download: true
         }

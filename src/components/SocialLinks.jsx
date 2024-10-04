@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 Resume <FaFileDownload size={30} />
                 </>
             ),
-            href: 'cv_Anastasiia Lutsiv.pdf',
+            href: cv,
             style: 'rounded-br-md',
             download: true
         }

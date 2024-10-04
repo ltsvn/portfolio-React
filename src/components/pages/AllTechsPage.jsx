@@ -14,6 +14,9 @@ import storybook from "../../assets/storybook.png";
 import mui from "../../assets/mui.png";
 import axios from "../../assets/axios_logo_icon_168545.png";
 import formik from "../../assets/formik.png";
+import next from "../../assets/next.png";
+import antd from "../../assets/antd.jpeg";
+import shadcn from "../../assets/shadcn.png";
 import {Link} from "react-router-dom";
 
 const techs = [
@@ -31,78 +34,96 @@ const techs = [
     },
     {
         id: 3,
+        src: next,
+        title: 'Next.js',
+        style: 'shadow-white'
+    },
+    {
+        id: 4,
         src: javascript,
         title: 'JavaScript',
         style: 'shadow-yellow-500'
     },
     {
-        id: 3,
+        id: 5,
         src: typescript,
         title: 'TypeScript',
         style: 'shadow-blue-500'
     },
     {
-        id: 4,
+        id: 6,
         src: react,
         title: 'React',
         style: 'shadow-blue-600'
     },
     {
-        id: 5,
+        id: 7,
         src: redux,
         title: 'Redux',
         style: 'shadow-purple-500'
     },
     {
-        id: 6,
+        id: 8,
+        src: shadcn,
+        title: 'Shadcn',
+        style: 'shadow-white'
+    },
+    {
+        id: 9,
+        src: antd,
+        title: 'AntD',
+        style: 'shadow-blue-600'
+    },
+    {
+        id: 10,
         src: git,
         title: 'Git',
         style: 'shadow-purple-500'
     },
     {
-        id: 7,
+        id: 11,
         src: postman,
         title: 'Postman',
         style: 'shadow-orange-500'
     },
     {
-        id: 8,
+        id: 12,
         src: github,
         title: 'Github',
         style: 'shadow-white'
     },
     {
-        id: 9,
+        id: 13,
         src: jest,
         title: 'Jest',
         style: 'shadow-green-400'
     },
     {
-        id: 10,
+        id: 14,
         src: tailwind,
         title: 'Tailwind',
         style: 'shadow-sky-400'
     },
     {
-        id: 11,
+        id: 15,
         src: storybook,
         title: 'Storybook',
         style: 'shadow-pink-400'
     },
     {
-        id: 12,
+        id: 16,
         src: mui,
         title: 'Material UI',
         style: 'shadow-sky-400'
     },
     {
-        id: 13,
+        id: 17,
         src: axios,
         title: 'Axios',
         style: 'shadow-sky-400'
     },
     {
-        id: 14,
+        id: 18,
         src: formik,
         title: 'Formik',
         style: 'shadow-sky-400'

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import NavbarProjects from './AllProjects-comps/NavbarProjects';
+import AllProjects from "./AllProjects-comps/AllProjects.jsx";
 
 
 const AllProjectsPage = () => {
@@ -12,7 +13,7 @@ const AllProjectsPage = () => {
     return (
         <>
             <NavbarProjects />
-            {/*<AllProjects />*/}
+            <AllProjects />
         </>
     )
 }

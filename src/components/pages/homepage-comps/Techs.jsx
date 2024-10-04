@@ -16,6 +16,7 @@ import axios from "../../../assets/axios_logo_icon_168545.png"
 import {Link as ScrollLink} from 'react-scroll';
 import {MdOutlineKeyboardArrowRight} from "react-icons/md";
 import { Link } from 'react-router-dom'
+import next from "../../../assets/next.png";
 
 const Techs = () => {
 
@@ -52,9 +53,9 @@ const Techs = () => {
         },
         {
             id: 5,
-            src: redux,
-            title: 'Redux',
-            style: 'shadow-purple-500'
+            src: next,
+            title: 'Next.js',
+            style: 'shadow-white'
         },
     ]
 

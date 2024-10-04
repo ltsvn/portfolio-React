@@ -3,6 +3,7 @@ import fitnessapp from '/public/images/projectsImages/fitnessApp.png'
 import socialnetwork from '/public/images/projectsImages/SocialNetwork.png'
 import todolist from '/public/images/projectsImages/Screenshot 2023-07-02 at 23.23.24.png'
 import relvise from '/public/images/projectsImages/relvise.png'
+import ewmar from '/public/images/projectsImages/ewmar.png'
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
@@ -20,6 +21,22 @@ const MyProjects = () => {
         },
         {
             id: 2,
+            name: 'EWMAR',
+            src: ewmar,
+            demo: 'https://www.firmaewmar.com/',
+            code: 'https://github.com/ltsvn/Ewmar',
+            status: 'Finished'
+        },
+        // {
+        //     id: 1,
+        //     name: 'Fitness App',
+        //     src: fitnessapp,
+        //     demo: 'https://ltsvn.github.io/myFitnessApp/',
+        //     code: 'https://github.com/ltsvn/myFitnessApp',
+        //     status: 'Finished'
+        // },
+        {
+            id: 3,
             name: 'Social Network',
             src: socialnetwork,
             demo: 'https://ltsvn.github.io/React_Social_Network/',
@@ -27,7 +44,7 @@ const MyProjects = () => {
             status: 'In progress'
         },
         {
-            id: 3,
+            id: 4,
             name: 'Relvise',
             src: relvise,
             demo: 'https://ltsvn.github.io/RELVISE/',
@@ -35,7 +52,7 @@ const MyProjects = () => {
             status: 'Finished'
         },
         {
-            id: 4,
+            id: 5,
             name: 'ToDo List',
             src: todolist,
             demo: 'https://ltsvn.github.io/ToDoList/',
